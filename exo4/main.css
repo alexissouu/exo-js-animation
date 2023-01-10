@@ -1,0 +1,19 @@
+.boite {
+    width: 200px; /* Largeur de la boîte */
+    height: 200px; /* Hauteur de la boîte */
+    border: 2px solid #000; /* Bordures noires */
+    text-align: center; /* Centre le contenu de la boîte */
+    filter: blur(6px); /* Ajoute un blur */
+    transition: filter 0.3s, border 0.3s; /* Animation sur le hover */
+  }
+  
+  .boite:hover {
+    filter: blur(0); /* Enlève le blur au hover */
+    border: 2px solid #f00; /* Change les bordures en rouge au hover */
+  }
+  
+  .boite:active {
+    width: 400px; /* Change la largeur de la boîte au clic */
+    height: 200px; /* Change la hauteur de la boîte au clic */
+  }
+  

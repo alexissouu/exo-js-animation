@@ -1,0 +1,15 @@
+#boite {
+    display: none; 
+    position: fixed; 
+    left: 700px;;
+    top: 200px;
+    width: 200px; 
+    height: 200px; 
+    background-color: #fff;
+    text-align: center; 
+  }
+  
+  body {
+    background-color: #fff; 
+  }
+  

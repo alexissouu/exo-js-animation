@@ -1,0 +1,15 @@
+.image {
+  display: none; /* Cache les images par défaut */
+  width: 800px; /* Largeur de l'image */
+  height: 800px; /* Hauteur de l'image */
+  transition: opacity 0.3s; /* Animation sur l'apparition de l'image */
+}
+
+.image.visible {
+  display: block; /* Affiche l'image */
+  opacity: 1; /* Rend l'image visible */
+}
+
+.image.invisible {
+  opacity: 0; /* Rend l'image invisible */
+}
